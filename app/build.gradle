@@ -26,3 +26,7 @@ dependencies {
     compile 'com.koushikdutta.ion:ion:2.+'
 
 }
+
+ant.importBuild 'assets.xml'
+preBuild.dependsOn(list, checksum)
+clean.dependsOn(clean_assets)
