@@ -9,3 +9,5 @@ Keep your phone/tablet clean while you cook with both of your hands. Recipio wil
 Uses CMUSphinx for keyword spotting and voice recognition, Android's text-to-speech, and Recipio's REST API.
 
 Created at Bridgehacs 2016 Hackathon.
+
+*Non-functional, as CMUSphinx likes to recognize every command twice for some reason*
